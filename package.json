@@ -1,0 +1,25 @@
+{
+  "name": "cf-flood",
+  "version": "1.0.0",
+  "description": "A tool for flooding requests using Cloudflare Bypasser.",
+  "main": "cf-flood.js",
+  "scripts": {
+    "start": "node cf-flood.js"
+  },
+  "keywords": [
+    "cloudflare",
+    "flood",
+    "ddos",
+    "loivXploit"
+  ],
+  "author": "loivXploit",
+  "license": "ISC",
+  "dependencies": {
+    "cloudflare-bypasser": "^1.0.0",
+    "crypto-random-string": "^3.0.0",
+    "colors": "^1.4.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
